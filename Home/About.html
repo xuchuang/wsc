@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Tencent-CP">
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, viewport-fit=cover, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <title> 关于我们</title>
+    <meta name="KeyWords" content="">
+    <meta name="description">
+    <link href="/wsc/css/animate.min.css" rel="stylesheet"/>
+    <link href="/wsc/css/dist/bootstrap.css" rel="stylesheet">
+    <link href="/wsc/css/index.css?2010" rel="stylesheet"/>
+
+    <script>
+        (function (win, doc) {
+            if (!win.addEventListener) return;
+            var html = document.documentElement;
+
+            function setFont() {
+                var html = document.documentElement;
+                var k = 750;
+                html.style.fontSize = html.clientWidth / k * 100 + "px";
+            }
+
+            setFont();
+            setTimeout(function () {
+                setFont();
+            }, 300);
+            doc.addEventListener('DOMContentLoaded', setFont, false);
+            win.addEventListener('resize', setFont, false);
+            win.addEventListener('load', setFont, false);
+        })(window, document);
+    </script>
+    <script src="/wsc/js/jquery-1.9.0.min.js"></script>
+    <script src="/wsc/js/swiper.min.js"></script>
+    <script src="/wsc/js/wow.min.js"></script>
+
+</head>
+<body>
+<div class="wrapper">
+    <div class="mod-banner">
+        <div class="mod-nav">
+            <div class="ui-center-outside">
+                <!--                <a class="ui-logo" style="background-image: url('/wsc/images/LinkImg/20200730172941大字黄白透明LOGO_副本.png'); background-repeat: no-repeat;">-->
+                <span style="font-size: 40px;color: white; line-height: 110px; margin-left: 40px">强安消防</span></a>
+
+                <a class="navbar-toggle">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+
+                <div class="nav top-nav">
+                    <a href="/wsc/index.html" title="首页">首页</a>
+                    <div class="nav-item">
+                        <a title="关于强安" href="/wsc/Home/About.html">关于强安</a>
+                        <div class="hover-bg"></div>
+                        <div class="nav-sub-list">
+                            <a title="企业介绍" href="/wsc/Home/About.html">企业介绍</a>
+                            <a title="企业资质" href="/wsc/Home/zizhi.html">企业资质</a>
+                            <a title="企业荣誉" href="/wsc/Home/rongyu.html">企业荣誉</a>
+                        </div>
+                    </div>
+                    <div class="nav-item">
+                        <a title="项目业绩" href="/wsc/Home/yeji.html">项目业绩</a>
+                    </div>
+                    <div class="nav-item">
+                        <a title="联系我们" href="/wsc/Home/Contact.html">联系我们</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mod-container computer-margin">
+        <div class="sub-nav">
+            <ul>
+                <li class="active"><a href="/wsc/Home/About.html" title="企业介绍">企业介绍</a></li>
+                <li><a href="/wsc/Home/zizhi.html" title="企业资质">企业资质</a></li>
+                <li><a href="/wsc/Home/rongyu.html" title="企业荣誉">企业荣誉</a></li>
+            </ul>
+        </div>
+        <div class="main page-introduce">
+            <div class="in-about type-introduce animated fadeIn wow">
+                <div class="ui-center" style="padding-top: 30px!important;">
+                    <div class="text">
+                        <p style="text-indent: 2em;"><br/></p>
+                        <p style="text-indent: 2em;"><span style="font-size: 18px;"></span></p>
+                        <p style="margin-top:8px;margin-bottom:10px;text-indent:32px;text-autospace:ideograph-numeric;line-height:32px">
+                            <span style="font-family: 微软雅黑; font-size: 18px;">浙江强安消防工程技术有限公司坐落于浙江省诸暨市，是集消防产品的销售及消防工程设计与施工一体的现代化企业。主要承揽火灾自动报警系统、自动喷水灭火系统、消火栓系统、防排烟系统、防火门工程、气体灭火系统、泡沫灭火系统的设计及安装、维修保养等诸多工程项目。代理消防工程设计、申报、验收;公司下属多家消防栓箱、灭火器箱厂，代理全国多家知名品牌消防产品。力争为广大客户提供最优质实惠的消防器材及设备。公司引进各类科技和管理人才，拥有一批长期从事消防工作、精通消防技术、熟悉消防规范、实践经验丰富的技术人员。</span>
+                        </p>
+                        <p style="margin-bottom:10px;text-indent:32px;text-autospace:ideograph-numeric;line-height:32px">
+                        <span style="font-size: 18px;"><span style="font-family: 微软雅黑;"> 本公司承诺：将以一流的技术、一流的质量、一流的管理、一流的服务，携手明天，创造无限，真诚的为消防事业的发展做出应尽的贡献。</span><span
+                                style="text-indent: 2em;">。</span></span></p>
+                        <p><br/></p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var swiper = new Swiper('.team-container', {
+        initialSlide: 2,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        navigation: {
+            nextEl: '.arrow-next',
+            prevEl: '.arrow-prev',
+        },
+        // centeredSlidesBounds: true
+    });
+
+    swiper.update();
+
+    $('.top-nav').children().eq(1).addClass('active');
+</script>
+<div class="mod-footer">
+    <div class="ui-center">
+        <div class="nav">
+            <div class="item">
+                <a class="type-main" href="/wsc/index.html">网站首页</a>
+            </div>
+            <div class="item">
+                <a class="type-main" href="/wsc/Home/About.html">关于强安</a>
+                <div class="sub-list">
+                    <a title="企业介绍" href="/wsc/Home/About.html">企业介绍</a>
+                    <a title="企业资质" href="/wsc/Home/zizhi.html">企业资质</a>
+                    <a title="企业荣誉" href="/wsc/Home/rongyu.html">企业荣誉</a>
+                </div>
+            </div>
+            <div class="item">
+                <a class="type-main" href="/wsc/Home/yeji.html">项目业绩</a>
+            </div>
+            <div class="item" style="width: 200px">
+                <a class="type-main" href="/wsc/Home/Contact.html">联系我们</a>
+                <div class="sub-list">
+                    <a href="/wsc/Home/Contact.html">吴经理: 17696840305</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="ui-footer-wechat">
+            <div class="wechat">
+                <img src="/wsc/images/LinkImg/wexin.png" alt="" />
+                <a class="link">强安消防微信公众平台</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="mod-copyright">
+    <p><span class="en">&nbsp;网站版权归浙江强安消防工程有限公司&nbsp; &nbsp; COPYRIGHT &amp;copyright;2023 </span></p>
+
+</div>
+<script src="/wsc/js/base.js"></script>
+<script>
+    new Swiper('.in-project-container', {
+        slidesPerView: 3,
+        autoplay: true,
+        navigation: {
+            nextEl: '.ui-arrow-next',
+            prevEl: '.ui-arrow-prev',
+        },
+    });
+
+    new Swiper('.banner-container', {
+        autoplay: true,
+        pagination: {
+            el: '.banner-pagination',
+        },
+    });
+</script>
+</body>
+</html>
